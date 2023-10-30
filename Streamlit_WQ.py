@@ -26,7 +26,7 @@ with col3:
         st.warning("Inputan tidak boleh kosong!")
 
 with col4:
-    barium = st.text_input("input nilai Skin Barium")
+    barium = st.text_input("input nilai Barium")
     if barium == "":
         st.warning("Inputan tidak boleh kosong!")
 
